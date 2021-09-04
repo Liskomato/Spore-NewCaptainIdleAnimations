@@ -1,0 +1,67 @@
+version 10
+
+anim 0xE95AEA61 "lisk_newcaptainidle"
+	endMode 1
+	allowLocomotion true
+	priorityOverride 1
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_bored"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_dozeoff"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_lookabout"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_lookDown"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_lookLtRt"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_lookRtLt"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_lookUp"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_scratchself"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_shake"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_sit"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_sneeze"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_Crg_sniffair"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_turn_v1"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_turn_v2"
+	end
+
+	choice 
+		animation "_final/EP1/EP1_idle_CrTr_yawn"
+	end
+end

@@ -1,0 +1,10 @@
+<mod displayName="New Captain Idle Animations" unique="LSK_NCIDLE" description="A mod that replaces Spore's default idle animation (barring Creature/Tribal Stages) with a variety of other animations. Effects primarily the Galactic Adventures player captain and the Hologram Scout in Space Stage." installerSystemVersion="1.0.1.0" hasCustomInstaller="true" dllsBuild="2.5.20">
+<componentGroup unique="Versions" displayName="Version">
+<component unique="Default" displayName="New Idle" description="Default version of the mod. Replaces the standard 'lookaround' idle animation with a range of others." game="GalacticAdventures" defaultChecked="true">NewCaptainIdleAnimation.package</component>
+<component unique="None" displayName="No Idle" description="Removes idle animations from the player character and does not replace them. Good option for taking screenshots in-game."/>
+</componentGroup>
+<prerequisite>NewCaptainIdleAnimations.dll</prerequisite>
+<remove game="GalacticAdventures">NewCaptainIdleAnimation*</remove>
+<remove game="Spore">NewCaptainIdleAnimation*</remove>
+<remove>NewCaptainIdleAnimation*</remove>
+</mod>
